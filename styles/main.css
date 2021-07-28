@@ -2565,10 +2565,10 @@ textarea.form-control:focus, textarea.form-control:active {
   height: 1px;
   border-radius: 0;
   -webkit-box-shadow: none;
-          box-shadow: none;
-  background: rgba(222, 222, 222, 0.8);
+  box-shadow: none;
+  /* background: rgba(222, 222, 222, 0.8); */
   margin-top: 14px;
-}
+  }
 
 .progress-container .progress .progress-bar {
   -webkit-box-shadow: none;
@@ -2585,7 +2585,7 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-neutral .progress {
-  background: rgba(255, 255, 255, 0.3);
+  /*background: rgba(255, 255, 255, 0.3);*/
 }
 
 .progress-container.progress-neutral .progress-bar {
@@ -2598,8 +2598,9 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: rgba(55, 78, 140, 0.4);
+  /* background: rgba(55, 78, 140, 0.4); */
 }
+
 
 .progress-container.progress-primary .progress-bar {
   background: #1f51f2;
@@ -2607,7 +2608,9 @@ textarea.form-control:focus, textarea.form-control:active {
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #1f51f2;
+  /* color: #1f51f2; */
+  color: #2C2C2C; 
+  
 }
 
 .progress-container.progress-info .progress {
@@ -7140,7 +7143,7 @@ Created using IcoMoon - icomoon.io
 
 /* Professional Skills Style */
 .progress-container {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 18px;
 }
 
