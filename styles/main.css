@@ -2548,6 +2548,7 @@ textarea.form-control:focus, textarea.form-control:active {
 
 .progress-container {
   position: relative;
+  text-align: center;
 }
 
 .progress-container + .progress-container,
